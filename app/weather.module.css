@@ -1,0 +1,46 @@
+.box {
+    width: 800px;
+    height: 300px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.input{
+    padding: 16px 14px;
+    border-radius: 10px;
+    transition: .4s;
+    text-align: center;
+}
+
+
+.button{
+    margin-top: 12px;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: lightgreen;
+    transition: .3s;
+}
+.button:hover{
+    border: 1px solid black;
+    width: 160px;
+    height: 50px;
+    padding: 10px 5px;
+}
+
+
+
+.text{
+    font-weight: 500;
+    color: aliceblue;
+}
+
+.background{
+    background-image: url('../public/waves.svg');
+    width: 100%;
+    height: 88vh;
+    background-position: center;
+}
